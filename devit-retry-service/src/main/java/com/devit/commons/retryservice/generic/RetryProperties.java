@@ -1,10 +1,12 @@
-package com.devit.commons.retryservice.retry.generic;
+package com.devit.commons.retryservice.generic;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * @author Lucas.Godoy on 14/12/17.
  */
+@Configuration
 @ConfigurationProperties(prefix = "retry")
 public class RetryProperties {
 
