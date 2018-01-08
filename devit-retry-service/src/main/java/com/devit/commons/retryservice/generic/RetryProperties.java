@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
  * @author Lucas.Godoy on 14/12/17.
  */
 @Configuration
-@ConfigurationProperties(prefix = "retry")
+@ConfigurationProperties(prefix = "retryPropertiesgit ")
 public class RetryProperties {
 
 	private Long retryBackOffTime;
